@@ -1,0 +1,17 @@
+# 1)string opeartions
+
+srt=input("Enter the string:")
+print("Total number of char:", len(srt))
+print("Repeat 10 times:",(srt+' ')*10)
+print("First char of string:", srt[0])
+print("First three character:",srt[0:3])
+#print("Last 3 char(reverse):", srt[len(srt):len(srt)-4:-1])
+print("Last 3 char(order) :",srt[len(srt)-3:len(srt)])
+print("Reverse :", srt[len(srt)::-1])
+print("7th character:", srt[7-1])
+#print("first and last char removed:",srt.strip(srt[0]),srt.strip(srt[len(srt)-1]))
+print("First and last char removed:", srt[1:len(srt)-1])
+print("All Upper letter", srt.upper())
+print("a is replaced with e:", srt.replace('a','e'))
+#print("Every letter replaced  by Space:[",' '*len(srt),"]")
+print("Every letter repls  space:",' '.join(srt))
